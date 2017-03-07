@@ -1,0 +1,30 @@
+{
+  "name": "snelling/session",
+  "description": "Simple redis session handler",
+  "keywords": [
+    "session",
+    "redis-session",
+    "snelling",
+    "onroi"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sam Snelling",
+      "email": "sam@onroi.com"
+    }
+  ],
+  "type": "project",
+  "require": {
+    "php": "7.*",
+    "snelling/redis": "@dev"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.2.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Snelling\\": "src/"
+    }
+  }
+}
